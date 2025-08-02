@@ -181,37 +181,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 62769290f6e968d4498539cda0a54459, type: 3}
   - {fileID: 21300000, guid: a2c1561afd141df4f91611ed84c4c803, type: 3}
   - {fileID: 21300000, guid: 742611cd2a7bc1e44b4505956e69d718, type: 3}
-  _useSpriteAtlas: 0
-  _spriteAtlas: {fileID: 0}
-  _atlasSpriteNames:
-  - Environment_Coral_1
-  - Environment_Coral_2
-  - Environment_Coral_3
-  - Environment_Coral_4
-  - Environment_Coral_5
-  - Environment_Coral_6
-  - Environment_Coral_7
-  - Environment_Flower_1
-  - Environment_Flower_2
-  - Environment_Flower_3
-  - Environment_Flower_4
-  - Environment_Garden_Eel_1
-  - Environment_Garden_Eel_2
-  - Environment_Seaweed_Big_1
-  - Environment_Seaweed_Big_2
-  - Environment_Seaweed_Small_1
-  - Environment_Seaweed_Small_2
-  - Environment_Shell_1
-  - Environment_Shell_2
-  - Environment_Star_1
-  - Environment_Star_2
-  - Environment_Star_3
-  - Environment_Stone_1
-  - Environment_Stone_2
-  - Environment_Stone_Star_1
-  - Environment_Stone_Star_2
-  - Environment_Stone_Star_3
-  - Environment_Coral_1
 --- !u!4 &59975990
 Transform:
   m_ObjectHideFlags: 0
@@ -305,6 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 797819719}
   - component: {fileID: 797819718}
+  - component: {fileID: 797819720}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -389,6 +359,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &797819720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797819717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1239554143
 GameObject:
   m_ObjectHideFlags: 0
